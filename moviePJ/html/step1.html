@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>タブレットに表示したいページ</title>
+	<style>
+		.layer{
+			 width:1707px;
+			 height:1060px;
+			 background-image:url(background.gif) ;
+			 position:relative;
+		}
+		.layerTransparent{
+			position:absolute;
+			background-color:rgba(255,255,255,0.7);
+			width:100%;
+			height:100%;
+		}
+		
+		
+		.relative{			
+			position: relative;		
+		}
+		.absolute{
+			position:absolute;
+			top:50px;
+			color:#fff;
+			background:rgba(0,0,0,0.4);
+			width:700px;
+			height:150px;
+			text-align:center;
+			
+		}
+		.absolute p{
+			margin:0;
+			letter-spacing:0.5em;
+			font-family:fantasy;
+			font-size:120px;
+			text-align:center;
+		}
+		.moji{
+			margin-top:300px;
+			font-size:120px;
+			text-align:center;
+			
+		}
+	</style>
+  </head>
+  <body>
+			
+        <div class="layer">
+		<div class="layerTransparent">
+			
+		
+		<figcaption class="absolute">
+		<p>Step1</p></figcaption>
+		
+		<p class="moji" >豚肉を炒めます。<br /><br />色が変わってきたら<br />塩、コショウをします。</p>
+	
+</div>
+</div>	
+  </body>
+</html>
